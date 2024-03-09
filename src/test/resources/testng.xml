@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cucumber BDD Tests">
+    <test parallel="classes" thread-count="2" preserve-order="true" name="D:/Test/CucumberBDDdemo">
+        <classes>
+           <class name="runner.TestRunner"></class>
+        </classes>
+    </test>
+</suite>
